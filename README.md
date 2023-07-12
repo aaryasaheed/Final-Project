@@ -40,6 +40,7 @@ I organized the 12 groups into 3 generations and applied K-Means Clustering to g
 The results of the clusters reveal a lack of distinct groups, as the data points are scattered across the plots. It appears that there is no evident correlation between a song's popularity and its audio features. This suggests that further analysis is required to accurately determine the factors contributing to a song's popularity in K-pop. It is important to recognize that the popularity of a song involves more than just its music, indicating that additional aspects should be taken into consideration for a comprehensive understanding.
 
 Here are the cluster plots:
+
 ![all gen - clustering acousticness](https://github.com/aaryasaheed/Final-Project/assets/130434126/a9c8b0bb-ae36-4f84-bcfc-a62f2f5dc3ab)
 ![all gen - clustering danceability](https://github.com/aaryasaheed/Final-Project/assets/130434126/afb6c42a-5780-449c-8479-899946f9a47c)
 ![all gen - clustering energy](https://github.com/aaryasaheed/Final-Project/assets/130434126/60c9e1a2-5601-4e07-bc20-4ad3ee517a53)
@@ -53,6 +54,7 @@ Here are the cluster plots:
 I then created scatterplots for all the songs across generations and used different colors to represent each generation. This visual representation revealed a clear distinction where the second generation appeared to have a lower level of popularity compared to other generations. This finding suggests that a song's popularity is heavily influenced by the personal taste of fans.
 
 Here are the plots:
+
 ![popularity vs acousticness](https://github.com/aaryasaheed/Final-Project/assets/130434126/795970e9-e60e-4ac1-8ae0-b5103c3265d6)
 ![popularity vs danceabililty](https://github.com/aaryasaheed/Final-Project/assets/130434126/44ff2464-9383-4c99-b7ca-0f110a378129)
 ![popularity vs energy](https://github.com/aaryasaheed/Final-Project/assets/130434126/36e55ed6-4408-4757-abee-7e731f160d18)
@@ -74,6 +76,7 @@ By plotting the means of the audio features grouped by generation, I discovered 
 This observation leads me to believe that the songs produced by older generations were more vibrant and bold, contributing to the uniqueness of K-pop. On the other hand, the newer generations seem to create music that appeals to a broader audience. This shift may be related to the fact that during the second generation, K-pop fans were primarily concentrated in Asian countries. Today, however, K-pop has achieved global recognition and popularity, suggesting a need for music that resonates with a wider range of listeners.
 
 Here are the plots:
+
 ![mean of tempo by generation](https://github.com/aaryasaheed/Final-Project/assets/130434126/eb015afb-8de0-480b-93fd-0f02f802895d)
 ![mean of audio features by generation](https://github.com/aaryasaheed/Final-Project/assets/130434126/8ccf03da-bc6a-4057-8fba-7a1cdc0c9e89)
 
@@ -96,6 +99,7 @@ The fourth generation has a moderate MSE value of 32.30. While not as low as the
 Based on the MSE values, it appears that the selected audio features are more relevant for predicting the popularity of songs in the third generation compared to the second and fourth generations. However, it's important to note that these results only provide a partial understanding of the evolution of K-pop across different generations. To fully understand the evolution of K-pop, we need to analyze more, consider other factors, and take a broader approach.
 
 Here are the regression plots:
+
 ![regression plot 2nd gen](https://github.com/aaryasaheed/Final-Project/assets/130434126/7a7d3247-4e0d-409b-9580-5d26fbb1ff9e)
 ![regression plot 3rd gen](https://github.com/aaryasaheed/Final-Project/assets/130434126/d47ff389-84dd-43fc-af29-979e8816ab6f)
 ![regression plot 4th gen](https://github.com/aaryasaheed/Final-Project/assets/130434126/1b7d98e6-fe49-486f-93ce-d153e6a56a35)
@@ -114,6 +118,7 @@ Additionally, I plotted the groups based on their follower counts, which highlig
 To gain a more comprehensive understanding of the dynamics behind popularity and success within the K-pop industry, it would be beneficial to consider various other factors. These could include factors such as album sales, concert attendance, social media engagements, and cultural impact. By analyzing these additional elements, we can paint a bigger picture of the K-pop landscape and the factors contributing to the success and popularity of different groups.
 
 Here are the plots:
+
 ![song popularity by artist](https://github.com/aaryasaheed/Final-Project/assets/130434126/8b66305a-01e1-4f2b-8ae1-ef2e84af44ee)
 ![followers count by artist](https://github.com/aaryasaheed/Final-Project/assets/130434126/f9879994-929a-49a4-b32e-2035bfcfdeb9)
 
