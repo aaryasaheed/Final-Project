@@ -34,6 +34,11 @@ Used Spotify's Web API to extract songs and albums information from the groups a
 * Time Signature
 * Valence
 
+## Clustering
+I divided the 12 groups into 3 generations and then grouped the groups' songs into 3 clusters using K-Means Clustering. I used the silhouette method to determine the number of clusters that would give me the best results out of the possibility of 2 to 10 clusters. 
+Here are the cluster plots I got when I clustered all the songs from all generations together:
+![Cluster Plots (All gen](all gen - clustering acousticness.png)
+![all gen - clustering acousticness](https://github.com/aaryasaheed/Final-Project/assets/130434126/a9c8b0bb-ae36-4f84-bcfc-a62f2f5dc3ab)
 
 
 
